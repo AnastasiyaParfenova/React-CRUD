@@ -15,7 +15,7 @@ class App extends Component {
             data: [
                 {name: 'Дмитрий', salary: 800, increase: false, rise: true, id: 1},
                 {name: 'Павел', salary: 3000, increase: true, rise: false, id: 2},
-                {name: 'Олег', salary: 5000, increase: false, rise: false, id: 3}
+                {name: 'Даниил', salary: 5000, increase: false, rise: false, id: 3}
             ],
             term: '', 
             filter: 'all'
@@ -31,7 +31,6 @@ class App extends Component {
         })
     }
 
-    // Да, пока могут добавляться пустые пользователи. Мы это еще исправим
     addItem = (name, salary) => {
         const newItem = {
             name, 
